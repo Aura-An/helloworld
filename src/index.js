@@ -9,6 +9,7 @@ init();
 function init() {
   camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.1, 100 );
   camera.position.z = 2;
+  //222222222222222222222222222
   scene = new THREE.Scene();
   scene.add( mesh ); // 2232
 
