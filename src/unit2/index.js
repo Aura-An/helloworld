@@ -2,8 +2,6 @@ import * as THREE from 'three';
 import { OrbitControls} from 'three/addons/controls/OrbitControls.js'
 import model from './model.js';
 
-const scene = new THREE.Scene();
-scene.add(model);
 
 const axesHelper = new THREE.AxesHelper(100);
 scene.add(axesHelper);
