@@ -5,11 +5,12 @@ import mesh from './model.js'
 let camera, scene, renderer;
 init();
 
+
 function init() {
   camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.1, 100 );
   camera.position.z = 2;
   scene = new THREE.Scene();
-  scene.add( mesh );
+  scene.add( mesh ); // 2232
 
   renderer = new THREE.WebGLRenderer( { antialias: true } );
   renderer.setPixelRatio( window.devicePixelRatio );
